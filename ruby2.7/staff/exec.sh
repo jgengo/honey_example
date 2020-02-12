@@ -1,7 +1,8 @@
 #!/bin/sh
 
 if [ "$#" -lt 2 ]; then
-    echo "no"
+    echo "usage: <ex number> <files ...>"
+    echo "example: ex00 main.rb"
     exit 1
 fi
 
